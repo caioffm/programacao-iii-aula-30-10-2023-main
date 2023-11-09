@@ -1,0 +1,58 @@
+body {
+    background-color: #0f0f23; /* Cor de fundo escura */
+    color: #39ff14; /* Cor de texto neon-verde */
+    font-family: 'Orbitron', sans-serif; /* Fonte com estilo futurista */
+}
+
+#cadastro-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #121212;
+    border: 1px solid #39ff14;
+    box-shadow: 0 0 10px #39ff14;
+}
+
+#cadastro-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastro-form div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #39ff14;
+    background-color: #000;
+    color: #39ff14;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #ff3a41; /* Cor de destaque */
+}
+
+button {
+    background-color: #39ff14;
+    color: #000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #32cd32;
+}
